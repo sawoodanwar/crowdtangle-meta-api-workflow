@@ -1,0 +1,9 @@
+.Rhistory
+.RData
+*.Rproj
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.xlsx
+__pycache__/
+*.pyc
+.DS_Store
