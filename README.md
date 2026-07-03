@@ -12,10 +12,21 @@ This repository documents a **reproducible, academic-grade data collection pipel
 
 > ⚠️ CrowdTangle was deprecated in August 2024. This workflow documents both the legacy CrowdTangle approach and the current **Meta Content Library** (MCL) replacement for academic researchers.
 
-> **Related Projects:**
-> - 🦠 [facebook-reactions-covid19-india](https://github.com/sawoodanwar/facebook-reactions-covid19-india) — PhD thesis (data collected via CrowdTangle)
-> - 📊 [meta-content-analysis](https://github.com/sawoodanwar/meta-content-analysis) — Meta platform analysis
-> - 🔄 [cross-platform-engagement-analysis](https://github.com/sawoodanwar/cross-platform-engagement-analysis) — Multi-platform framework
+---
+
+## 🔗 Related Projects
+
+| Repository | Description |
+|---|---|
+| 🦠 [facebook-reactions-covid19-india](https://github.com/sawoodanwar/facebook-reactions-covid19-india) | PhD thesis project (data collected via CrowdTangle) |
+| ⏱️ [timeseries-facebook-engagement-r](https://github.com/sawoodanwar/timeseries-facebook-engagement-r) | Time-series toolkit: general, COVID-19 extension & misinfo spike detection |
+| 🧠 [stm-social-media-r](https://github.com/sawoodanwar/stm-social-media-r) | STM topic modeling toolkit |
+| 💬 [sentiment-lexicon-comparison](https://github.com/sawoodanwar/sentiment-lexicon-comparison) | AFINN, Bing, NRC lexicon comparison |
+| 📊 [meta-content-analysis](https://github.com/sawoodanwar/meta-content-analysis) | Facebook & Instagram health misinformation analysis |
+| 🗳️ [reddit-political-misinfo-coding](https://github.com/sawoodanwar/reddit-political-misinfo-coding) | Reddit political communication manual coding |
+| 🔄 [cross-platform-engagement-analysis](https://github.com/sawoodanwar/cross-platform-engagement-analysis) | Unified cross-platform engagement framework |
+| 🔴 [disinformation-detection-ml](https://github.com/sawoodanwar/disinformation-detection-ml) | ML classifier for disinformation detection |
+| 🟣 [nlp-news-classification-r](https://github.com/sawoodanwar/nlp-news-classification-r) | Supervised NLP news classification |
 
 ---
 
@@ -45,17 +56,16 @@ This repository documents a **reproducible, academic-grade data collection pipel
 ```
 crowdtangle-meta-api-workflow/
 ├── crowdtangle/
-│   ├── 01_export_guide.md          # How to export data from CrowdTangle
-│   └── 02_clean_crowdtangle.R      # Clean and standardize CrowdTangle CSV exports
+│   ├── 01_export_guide.md
+│   └── 02_clean_crowdtangle.R
 ├── meta_content_library/
-│   ├── 01_access_guide.md          # How to apply for Meta Content Library access
-│   ├── 02_api_collection.py        # Python pipeline for MCL API data collection
-│   └── 03_json_to_csv.py           # Convert JSON API responses to analysis-ready CSV
+│   ├── 01_access_guide.md
+│   ├── 02_api_collection.py
+│   └── 03_json_to_csv.py
 ├── shared/
-│   ├── data_schema.md              # Unified output schema for both sources
-│   └── ethics_guidelines.md        # Data ethics and platform ToS guidance
-├── data/
-│   └── README.md
+│   ├── data_schema.md
+│   └── ethics_guidelines.md
+├── data/README.md
 ├── output/
 ├── requirements.txt
 ├── .gitignore
